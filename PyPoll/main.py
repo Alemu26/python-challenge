@@ -38,10 +38,10 @@ def writeResult(df):
         candidate3 = "Raymon Anthony Doane:%s (%s)\n" % (percentage(raymonVotes, totalVotes), raymonVotes)
         winner="Winner: %s" % candidates._get_value(winnerIndex, 'Candidate')
         # Print result to console
-        # print(totalVotesStr)          
-        # print(candidate1)
-        # print(candidate2)
-        # print(candidate3)
+        print(totalVotesStr)          
+        print(candidate1)
+        print(candidate2)
+        print(candidate3)
         print(winner)
         
         # Write result to file
